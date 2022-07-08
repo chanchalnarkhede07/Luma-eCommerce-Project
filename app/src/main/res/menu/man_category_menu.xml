@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cat_man_top"
+        android:title="@string/category_tops_man_title">
+        <menu>
+            <item
+                android:id="@+id/cat_man_jackets"
+                android:title="@string/category_man_jackets_title" />
+            <item
+                android:id="@+id/cat_man_tees"
+                android:title="@string/category_man_tees_title" />
+            <item
+                android:id="@+id/cat_man_tanks"
+                android:title="@string/category_man_tanks_title" />
+            <item
+                android:id="@+id/cat_man_sweatshirts"
+                android:title="@string/category_man_sweatshirts_amp_hoodies_title" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/cat_man_bottom"
+        android:title="@string/category_man_bottom_title">
+        <menu>
+            <item
+                android:id="@+id/cat_man_pants"
+                android:title="@string/category_man_pants_title" />
+            <item
+                android:id="@+id/cat_man_shorts"
+                android:title="@string/category_man_shorts_title" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/cat_man_shoes"
+        android:title="@string/category_man_shoes_title" />
+</menu>

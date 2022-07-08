@@ -1,0 +1,17 @@
+mutation addToCart ($cart_id : String!  , $sku : String!){
+    addSimpleProductsToCart(
+        input: {cart_id:$cart_id, cart_items: [{data: {quantity:1, sku: $sku}}]}
+    ) {
+        cart {
+
+            items {
+                id
+                product {
+                    name
+                    sku
+                }
+                quantity
+            }
+        }
+    }
+}

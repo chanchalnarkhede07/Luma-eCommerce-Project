@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cat_women_top"
+        android:title="@string/category_women_top_title">
+        <menu>
+            <item
+                android:id="@+id/cat_women_tees"
+                android:title="@string/category_women_tees_title" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/cat_women_bottom"
+        android:title="@string/category_women_bottom_title">
+        <menu>
+            <item
+                android:id="@+id/cat_women_pant"
+                android:title="@string/category_women_pant_title" />
+        </menu>
+    </item>
+
+</menu>

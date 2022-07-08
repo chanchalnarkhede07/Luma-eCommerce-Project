@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/outline_shopping_cart_24"
+        android:title="Cart"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/appSearchBar"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="ifRoom|withText" />
+
+
+</menu>

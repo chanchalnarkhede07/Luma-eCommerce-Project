@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ECommerce</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_products">Products</string>
+    <string name="title_account">Account</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_category">Category</string>
+    <string name="title_category_product">Category ProductList</string>
+    <string name="title_productlist1">Product List</string>
+
+    <string name="price_start_tag">As low as</string>
+    <string name="reviews_tag">Reviews</string>
+    <string name="button_add_to_cart">Add to Cart</string>
+    <string name="zero_products_found">Zero Products Found</string>
+    <string name="toggle_btn_gid_text">GRID</string>
+    <string name="toggle_btn_list_text">LIST</string>
+    <string name="button_sort">Sort</string>
+    <string name="button_filter">Filter</string>
+
+    <!--    Sort By layout name -->
+    <string name="sort_by_backgroundlayout_text">SORT BY</string>
+    <string name="sortby_name_text">Name Asc</string>
+    <string name="sortby_name_desc_text">Name Desc</string>
+    <string name="sortby_price_asc_text">Price Asc</string>
+    <string name="sortby_price_desc_text">Price Desc</string>
+    <string name="sortby_review_asc_text">Review Asc</string>
+    <string name="sortby_review_desc_text">Review Desc</string>
+
+    <!--category title-->
+    <string name="category_electronics_title">Electronics</string>
+    <string name="category_laptop_title">Laptop</string>
+    <string name="category_software_title">Software</string>
+    <string name="category_gear_title">Gear</string>
+    <string name="category_watches_title">Watches</string>
+    <string name="category_bags_title">Bags</string>
+    <string name="category_fitness_equipment_title">Fitness Equipment</string>
+    <string name="category_tops_man_title">Tops</string>
+    <string name="category_man_jackets_title">Jackets</string>
+    <string name="category_man_tees_title">Tees</string>
+    <string name="category_man_tanks_title">Tanks</string>
+    <string name="category_man_sweatshirts_amp_hoodies_title"><![CDATA[SweatShirts & Hoodies]]></string>
+    <string name="category_man_bottom_title">Bottom</string>
+    <string name="category_man_pants_title">Pants</string>
+    <string name="category_man_shorts_title">Shorts</string>
+    <string name="category_man_shoes_title">Shoes</string>
+    <string name="category_women_top_title">Top</string>
+    <string name="category_women_tees_title">Tees</string>
+    <string name="category_women_bottom_title">Bottom</string>
+    <string name="category_women_pant_title">Pant</string>
+
+
+    <string-array name="category">
+        <item>MAN</item>
+        <item>WOMEN</item>
+        <item>GEAR</item>
+        <item>ELECTRONICS</item>
+    </string-array>
+    <string-array name="man">
+        <item>TOP</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

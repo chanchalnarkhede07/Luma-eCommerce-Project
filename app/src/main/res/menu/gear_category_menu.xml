@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cat_gear"
+        android:title="@string/category_gear_title">
+        <menu>
+            <item android:id="@+id/cat_gear_watches" android:title="@string/category_watches_title"/>
+            <item android:id="@+id/cat_gear_bags" android:title="@string/category_bags_title"/>
+            <item android:id="@+id/cat_gear_fitness_equipment" android:title="@string/category_fitness_equipment_title"/>
+        </menu>
+    </item>
+
+</menu>

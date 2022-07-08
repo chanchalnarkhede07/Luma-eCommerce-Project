@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.born.ecommerce.home.presenation.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.born.ecommerce.account.presentation.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_dashboard" />
+
+
+    <fragment
+        android:id="@+id/navigation_products"
+        android:name="com.born.ecommerce.product.presentation.ProductListFragment"
+        android:label="@string/title_products"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.born.ecommerce.cart.presentation.CartFragment"
+        android:label="@string/title_cart"
+        tools:layout="@layout/fragment_notifications" />
+
+
+    <!-- Category Fragments   -->
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.born.ecommerce.category.view.ui.CategoryFragment"
+        android:label="@string/title_category"
+        tools:layout="@layout/fragment_category">
+
+        <action
+            android:id="@+id/action_categoryFragment_to_categoryProductListFragment"
+            app:destination="@id/categoryProductListFragment" />
+    </fragment>
+
+    <!-- Category Product List Fragments   -->
+    <fragment
+        android:id="@+id/categoryProductListFragment"
+        android:name="com.born.ecommerce.category.view.ui.CategoryProductListFragment"
+        android:label="@string/title_category_product">
+
+        <!--Arguments coming from Category Fragments    -->
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_categoryProductListFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+        <action
+            android:id="@+id/action_categoryProductListFragment_to_productdetailfragments"
+            app:destination="@id/productdetailfragments" />
+    </fragment>
+
+    <!-- ProductList Fragments   -->
+    <fragment
+        android:id="@+id/productList1Fragment"
+        android:name="com.born.ecommerce.category.view.ui.ProductList1Fragment"
+        android:label="@string/title_productlist1"
+        tools:layout="@layout/fragment_product_list1">
+        <argument
+            android:name="querySearch"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_productList1Fragment_to_productdetailfragments"
+            app:destination="@id/productdetailfragments" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/productdetailfragments"
+        android:name="com.born.ecommerce.category.view.ui.ProductDetailFragment"
+        android:label="Product Details">
+        <action
+            android:id="@+id/action_productdetailfragments_pop"
+            app:popUpTo="@id/productdetailfragments"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+
+</navigation>
