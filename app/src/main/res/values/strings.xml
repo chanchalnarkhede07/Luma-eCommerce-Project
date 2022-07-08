@@ -48,7 +48,7 @@
     <string name="category_women_tees_title">Tees</string>
     <string name="category_women_bottom_title">Bottom</string>
     <string name="category_women_pant_title">Pant</string>
-
+    <string name="git_commmit">Commit</string>
 
     <string-array name="category">
         <item>MAN</item>
